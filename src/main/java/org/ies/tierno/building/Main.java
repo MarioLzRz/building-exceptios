@@ -11,6 +11,7 @@ import org.slf4j.LoggerFactory;
 import java.util.Scanner;
 
 public class Main {
+
     private final static Logger log = LoggerFactory.getLogger(Main.class);
     public static void main(String[] args) {
         var scanner = new Scanner(System.in);
@@ -21,4 +22,5 @@ public class Main {
 
         log.info(apartment.toString());
     }
+
 }
