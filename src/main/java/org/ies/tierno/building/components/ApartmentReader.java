@@ -10,6 +10,7 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
+
 public class ApartmentReader implements Reader<Apartment> {
     private final static Logger log = LoggerFactory.getLogger(ApartmentReader.class);
 
